@@ -14,37 +14,35 @@ public class Main {
         int i;
 
         for (i=0; i<20;i++){
-            System.out.println("Digite valor da potencia 1: ");
+            System.out.println("Digite valor da potencia: ");
             potencias = sc.nextFloat();
         }
 
         maiorValor = potencias = 1255;
-
         for(i=0;i>20;i++){
             if(potencias > maiorValor) {
                 maiorValor = potencias;
                 System.out.println("Potencia de maior valor é: ");
                 maiorValor = sc.nextFloat();
-
             }
-
         }
+
 
         menorValor = potencias = 122;
         for(i=0; i<20;i++){
-
             if(potencias < menorValor){
                 menorValor = potencias;
                 System.out.println("Potencia de menor valor é : ");
                 menorValor = sc.nextFloat();
-
             }
         }
 
-        System.out.println(potencias = maiorValor/12);
-        System.out.println(potencias = menorValor/12);
-        System.out.println("A maior potencia atingida pela maquina é: " + maiorValor);
-        System.out.println("A menor potencia atingida pela maquina é: " + menorValor);
+        System.out.println("A maior potencia atingida pela maquina é: ");
+        System.out.println(potencias = maiorValor/12 + maiorValor);
+        
+        System.out.println("A menor potencia atingida pela maquina é: ");
+        System.out.println(potencias = menorValor/12 + menorValor);
+
 
 
 
