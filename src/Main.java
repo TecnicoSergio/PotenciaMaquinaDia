@@ -41,7 +41,8 @@ public class Main {
             }
         }
 
-        System.out.println(potencias = maiorValor/menorValor);
+        System.out.println(potencias = maiorValor/12);
+        System.out.println(potencias = menorValor/12);
         System.out.println("A maior potencia atingida pela maquina é: " + maiorValor);
         System.out.println("A menor potencia atingida pela maquina é: " + menorValor);
 
